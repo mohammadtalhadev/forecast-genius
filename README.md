@@ -35,21 +35,6 @@ It’s especially tailored for Pakistani eCommerce needs but is scalable to glob
 
 ---
 
-## 📂 Project Structure
-
-📁 client/ # React Frontend 
-
-📁 server/ # Python Backend (FastAPI + Prophet)
-
-📁 database/ # Supabase Schema & SQL scripts
-
-📁 public/ # Static assets
-
-📁 docs/ # ER Diagrams, Screenshots, Docs
-
-
----
-
 ## 📘Academic Info
 
 Title: AI-Powered Demand Forecasting in eCommerce
