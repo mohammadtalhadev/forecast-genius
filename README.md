@@ -1,65 +1,73 @@
-# 🧠 AI-Powered Demand Forecasting for eCommerce  
-Final Year Project – Mohammad Talha
+# Welcome to your Lovable project
 
-## 📌 Project Overview
+## Project info
 
-This project is a smart, AI-based web platform designed to help eCommerce businesses forecast product demand, manage inventory efficiently, and make better sales decisions. Built as a Final Year Project, the system uses machine learning (Prophet) for time-series forecasting and integrates LLaMA3 via the Groq API for real-time recommendations and business intelligence.
+**URL**: https://lovable.dev/projects/de2a3a7d-e136-4921-8917-65b502ecceaa
 
-It’s especially tailored for Pakistani eCommerce needs but is scalable to global markets. The system simplifies forecasting, stock reordering, price optimization, and competitor analysis using data-driven techniques.
+## How can I edit this code?
 
----
+There are several ways of editing your application.
 
-## 🌟 Key Features
+**Use Lovable**
 
-- 📈 Prophet-based demand forecasting  
-- 🔔 Automated alerts for low stock, sales spikes, and trends  
-- 🧠 AI-generated pricing and product bundling suggestions using LLaMA3 (via Groq)  
-- 📊 Interactive dashboards with regional sales insights  
-- 🚨 Supplier performance ratings based on delivery time and reliability  
-- 📥 Upload your own sales data for personalized forecasts  
-- 📤 Export reports and insights  
-- 🛠️ Built using a modern and scalable tech stack  
+Simply visit the [Lovable Project](https://lovable.dev/projects/de2a3a7d-e136-4921-8917-65b502ecceaa) and start prompting.
 
----
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🛠️ Tech Stack
+**Use your preferred IDE**
 
-| Component       | Technology             |
-|----------------|------------------------|
-| Frontend       | React, TypeScript      |
-| Backend        | Python, FastAPI        |
-| Forecasting    | Prophet                |
-| AI Integration | LLaMA3 via Groq API    |
-| Database       | Supabase (PostgreSQL)  |
-| Hosting        | Vercel |
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## 📂 Project Structure
+Follow these steps:
 
-📁 client/ # React Frontend 
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-📁 server/ # Python Backend (FastAPI + Prophet)
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-📁 database/ # Supabase Schema & SQL scripts
+# Step 3: Install the necessary dependencies.
+npm i
 
-📁 public/ # Static assets
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-📁 docs/ # ER Diagrams, Screenshots, Docs
+**Edit a file directly in GitHub**
 
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-## 📘Academic Info
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Title: AI-Powered Demand Forecasting in eCommerce
+## What technologies are used for this project?
 
-University: University Of Sahiwal
+This project is built with:
 
-Student: Mohammad Talha
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Supervisor: Tahira Malik
+## How can I deploy this project?
 
-Duration: [2021 – 2025]
+Simply open [Lovable](https://lovable.dev/projects/de2a3a7d-e136-4921-8917-65b502ecceaa) and click on Share -> Publish.
 
+## Can I connect a custom domain to my Lovable project?
 
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
